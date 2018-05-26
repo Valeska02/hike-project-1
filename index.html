@@ -6,17 +6,20 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <title>Cachorros - Os animais mais queridos do mundo</title>
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstraps.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css" 
+      <link rel="stylesheet" href="css/style.css">
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
    </head>
    <body>
       <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
          <div class="container">
             <a class="navbar-brand" href="#">
-            <img src="img/dog-icon.png" width="30" height="30">
+            <img src="img/dog-icon.png">
             Dogs
             </a>
             <button class="navbar-toggler" 
-            type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,24 +33,18 @@
                   <li class="nav-item">
                      <a class="nav-link" href="#">Alimentação</a>
                   </li>
-
                   <li class="nav-item">
-                     <a class="btn btn-outline-primary my-2 my-sm-0" href="https://www.procure1amigo.com.br/">Adotar</a>
+                     <a class="btn btn-outline-primary my-2 my-sm-0" data-toggle="modal" data-target="#exampleModalCenter">Adotar</a>
                   </li>
-            
                </ul>
             </div>
          </div>
       </nav>
       <!--header-->
       <header class="text-center">
-         <div class="col text-center">
-            <h1>Cachorros tornam sua vida mais feliz</h1>
-            <p>A chave para uma vida feliz é ter um cachorro</p>
-            <a class="btn btn-primary btn-lg" href="https://www.procure1amigo.com.br/">Adotar</a>
-         </div>
-         </div>
-         </div>
+         <h1>Cachorros tornam sua vida mais feliz</h1>
+         <p>A chave para uma vida feliz é ter um cachorro</p>
+         <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModalCenter">Adotar</a>
       </header>
       </div>
       <!--first-section-->
@@ -113,47 +110,50 @@
                <div class="col-12 col-md-5">
                   <h2>Sempre Divertidos</h2>
                   <p>Joga essa bolinha pra mim? Posso brincar com seu chinelo?</p>
-                  <a class="btn btn-lg btn-primary" href="#">Adotar</a>
+                  <a id="a-third-section" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Adotar</a>
                </div>
                <div class="col-12 col-md-5">
                   <img class="rounded img-fluid" src="img/dog-third-section.png" alt="">
-                     </div>
-                  </div>
-               </div>   
+               </div>
             </div>
-            <div class="section fourth-section">
+         </div>
+      </div>
+      <div class="section fourth-section">
          <div class="container">
             <div class="row">
                <!-- coluna 1-->
                <div class="col-12 text-center">
                   <h2>Adote um cãozinho e ame-o para sempre.</h2>
-                  <p>Você só vive uma vez</p>
-                  <a class="btn btn-lg btn-primary" href="#">Adotar</a>
-                    </div>
-                  </div>
-               </div>   
-            </div>
-            <footer class="text-center">
-               <small>Feito com amor <span><img class="footer-logo"
-                  src="img/hike-logo-small.png" alt=""></span> por um Hiker.</small>
-               </footer>
-                     <!-- coluna 2 -->
-               <div class="col-5">
-                  <h2>A fidelidade em forma de quatro patas</h2>
-                  <p>Não é muito difícil convencer alguém de que os nossos companheiros de quatro patas são os animais mais incríveis do mundo.</p>
-                  <p>Aqui estão só alguns dos motivos:</p>
-                  <ul>
-                     <li>Vão estar ao seu lado sempre que você precisar</li>
-                     <li>Sempre tentam fazer o máximo pra agradar seu dono</li>
-                     <li>Ficam incrivelmente felizes e agitados quando você chega em casa</li>
-                     <li>Estão sempre demonstrando carinho, de um jeito ou de outro</li>
-                  </ul>
+                  <p>Você só vive uma vez.</p>
+                  <a id="a-fourth-section" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Adotar</a>
                </div>
             </div>
          </div>
       </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+      <footer class="text-center">
+         <small>Feito com amor <span><img class="footer-logo"
+            src="img/hike-logo-small.png" alt=""></span> por um Hiker.</small>
+      </footer>
+      <!-- coluna 2 -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <form>
+                     <a class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                     </a>
+                     <h3 class="modal-title text-center mb-3">Sobre você</h3>
+                     <h6 class="modal-title text-center mb-3">Deixe suas informações para adotar seu melhor amigo!</h6>
+                     <input type="text" class="form-control mb-3" placeholder="Nome" arial-label="Nome" value="">
+                     <input type="text" class="form-control mb-3" placeholder="E-mail:" arial-label="E-mail:" value="">
+                     <input type="text" class="form-control mb-3" placeholder="Telefone" arial-label="Telefone" value="">
+                     <a href="#" data-dismiss="modal" class="form-control btn btn-primary">Enviar</a>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
    </body>
 </html>
